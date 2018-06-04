@@ -1,0 +1,14 @@
+{
+  "name": "eb-mock",
+  "version": "1.0.0",
+  "description": "mocks requests",
+  "scripts": {
+    "start": "./node_modules/.bin/mockserver -p 8080 -m './mocks'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mockserver": "^1.8.0"
+  }
+}
